@@ -113,9 +113,9 @@
 }
 
 .lots__heading {
+  margin: 180px 0px 27px 64px;
   font-size: 40px;
   text-transform: uppercase;
-  margin: 180px 0px 27px 64px;
 }
 
 .lots__card-list {
@@ -131,18 +131,23 @@ margin-right: 24px;
 }
 
 .lots__card-list-item {
-
+  width: 334px;
 }
 
 .card-link {
-  height: 100%;
   text-decoration: none;
 }
 
 .card {
   position: relative;
-  width: 334px;
-  height: 596px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 596px;
+  padding: 48px 40px;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 30px;
 }
 
 .card_type_film {
@@ -157,6 +162,113 @@ margin-right: 24px;
   background-image: url(../images/card-lot-03.jpg);
 }
 
+.card__title {
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  font-size: 22px;
+  z-index: 2;
+  }
+
 .card__text {
   height: 100%;
+  font-size: 20px;
+  z-index: 2;
+}
+
+.lots__look-more-link {
+  font-size: 20px;
+  margin-left: 64px;
+  text-underline-offset: 4px;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 334px 1fr;
+  margin: 120px 24px 180px 24px;
+  padding: 35px 0px 0px 0px;
+  gap: 25px;
+}
+
+.about__logo {
+  justify-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border-radius: 120px;
+  width: 240px;
+  height: 240px;
+  }
+
+.about__logo-image {
+  width: 148px;
+  height: 114px;
+}
+
+.about__section {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.about__title {
+text-transform: uppercase;
+font-size: 40px;
+margin-top: 100.5px;
+margin-bottom: 76px;
+}
+
+.about__text {
+  font-size: 20px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  justify-items: center;
+  padding: 0px 50px;
+}
+
+.footer__address {
+  font-size: 18px;
+  line-height: 25px;
+  text-underline-offset: 4px;
+}
+
+.footer__menu {
+  
+}
+
+.footer__menu-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__menu-list-item {
+  list-style: none;
+  font-size: 18px;
+  text-underline-offset: 4px;
+  font-style: normal;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
+}
+
+.footer__social-list {
+  display: flex;
+  flex-direction: row;
+  justify-self: end;
+  gap: 48px;
+}
+
+.footer__social-list-item {
+  list-style: none;
+}
+
+.footer__social-icon {
+  width: 48px;
+  height: 48px;
 }
