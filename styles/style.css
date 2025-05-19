@@ -59,7 +59,7 @@
   letter-spacing: 30px;
   color: white;
   gap: 16px;
-  }
+}
 
 .aligned-text {
   align-self: start;
@@ -86,7 +86,7 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 106px;
-    }
+}
 
 .cover__description-text {
   text-transform: uppercase;
@@ -108,9 +108,9 @@
   z-index: 2;
 }
 
-.lots {
+/*.lots {
   
-}
+} не использовал*/
 
 .lots__heading {
   margin: 180px 0px 27px 64px;
@@ -119,15 +119,15 @@
 }
 
 .lots__card-list {
-list-style: none;
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: space-between;
-gap: 25px;
-color: white;
-margin-left: 24px;
-margin-right: 24px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 25px;
+  color: white;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .lots__card-list-item {
@@ -168,7 +168,7 @@ margin-right: 24px;
   text-underline-offset: 4px;
   font-size: 22px;
   z-index: 2;
-  }
+}
 
 .card__text {
   height: 100%;
@@ -199,7 +199,7 @@ margin-right: 24px;
   border-radius: 120px;
   width: 240px;
   height: 240px;
-  }
+}
 
 .about__logo-image {
   width: 148px;
@@ -213,10 +213,10 @@ margin-right: 24px;
 }
 
 .about__title {
-text-transform: uppercase;
-font-size: 40px;
-margin-top: 100.5px;
-margin-bottom: 76px;
+  text-transform: uppercase;
+  font-size: 40px;
+  margin-top: 100.5px;
+  margin-bottom: 76px;
 }
 
 .about__text {
@@ -225,7 +225,7 @@ margin-bottom: 76px;
 
 .footer {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   justify-items: center;
   padding: 0px 50px;
 }
@@ -236,9 +236,9 @@ margin-bottom: 76px;
   text-underline-offset: 4px;
 }
 
-.footer__menu {
+/*.footer__menu {
   
-}
+} не использовал*/
 
 .footer__menu-list {
   display: flex;
